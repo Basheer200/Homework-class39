@@ -1,0 +1,28 @@
+*** Unit Test Error Report ***
+
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, , HackYourFuture!
+  Received: You are great, HackYourFuture
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="C:\Users\Basheer Ghaleb\OneDrive\Desktop\Homework-class39\test-runner\CustomReporter.js"
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+● Deprecation Warning:
+
+  Option "extraGlobals" was replaced by "sandboxInjectedGlobals".
+
+  Please update your configuration.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+*** Spell Checker Report ***
+

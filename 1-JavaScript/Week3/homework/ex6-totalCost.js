@@ -20,13 +20,33 @@ instead!
 
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
-const cartForParty = {
-  // TODO complete this object
+const cartForParty=
+{
+    beer: 1,
+    milk: 5.88,
+    cake: 1.44,
+    chips:2.77,
+    drink:3
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(total = 0){
+  let sum = 0;
+  // eslint-disable-next-line no-restricted-syntax
+  for (let i in cartForParty)
+  {
+ 
+    if (cartForParty.hasOwnProperty(i))
+    {
+      sum = sum + cartForParty[i] ;
+    }
+  }
+   
+   return `Total:${sum} $`;
 }
+
+console.log (calculateTotalPrice());
+
+
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
